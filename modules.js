@@ -29,6 +29,8 @@ form.addEventListener('submit', async (e) => {
     formData.append("entry.34988263", form.whatsapp.value);
     formData.append("entry.916247435", form.emailone.value);
     formData.append("entry.1371087664", form.emailtwo.value);
+    formData.append("entry.772253268", form.branchOne.value);
+    formData.append("entry.1880513899", form.branchTwo.value);
 
     let response = await fetch(
       "https://docs.google.com/forms/d/e/1FAIpQLSfopFhAehGbr0VB5tiSHdud2dZlKJyoaAaZJAyp_Rw_a5mNGQ/formResponse",
